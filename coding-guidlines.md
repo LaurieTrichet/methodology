@@ -10,7 +10,7 @@ https://source.android.com/source/code-style.html
 Most of the rules described in this document come from the Roadhouse Coding Standards and Best Practices document available here.
 http://home.roadhouse.com.au/Development/CodingGuidelines/
 
-Event if there is C# specific rules, most of the content is still up to date.
+Even if there is C# specific rules, most of the content is still up to date.
 
 ##Readability
 
@@ -53,7 +53,7 @@ int s
 
 Do not use single character variable names like i, n, s etc. Use names like index, temp 
 
-It is hard catch at the first sight what s represent and what's type and spot it into the code.
+It is hard to catch at first sight what `s` represents, what its type is and it is difficult to spot in the code.
 
 One exception in this case would be variables used for iterations in loops: 
 
@@ -78,7 +78,7 @@ private bool isFinished
 ##Best practices
 
 - Method's length should be between 1 to ~25 lines.
-- Class should be small >200 lines for most of the classes.
+- Classes should be < 200 lines in most cases.
 - Use static inner class to avoid memory leaks and use WeakReference to keep a reference to the outer class.
 ```
 public class Outer {
@@ -165,7 +165,7 @@ Excerpt From: Unknown. “Clean Code.”
 
 ##Architecture
 - Always use multi layer architecture. 
-Wrap third party library into a class. This allows to keep the code clean, to respect the Single responsability principle and to improve maintainability. (see SOLID (https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)))
+Wrap third party libraries into a class. This allows to keep the code clean, to respect the Single responsability principle and to improve maintainability. (see SOLID (https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)))
 
 For example, in a UI class, no database code, network, object's model processing should be in the UI class, only calls to the class responsible for the database or network or model etc...
 
@@ -188,7 +188,7 @@ Apps need to be tested to validate the app's behaviour.
 
 ##References
 
-Here are some references about how to code clean and maintenable code.
+Here are some references about how to write clean and maintainable code.
 
 - Clean Code by Robert C. Martin (ISBN 0132350882 (ISBN13: 9780132350884)) http://www.goodreads.com/book/show/3735293-clean-code
 - Refactoring: Improving the Design of Existing Code by Martin Fowler, Kent Beck, Don Roberts (ISBN 0201485672 (ISBN13: 9780201485677)) http://www.goodreads.com/book/show/44936.Refactoring
