@@ -106,7 +106,7 @@ Excerpt From: Anders Göransson. “Efficient Android Threading.”
 ```
 
 - Use immutable classes in multithreading environement.
-This will spare a lot of time debugging why an object has an inconsistant stage.
+This will spare a lot of time debugging why an object has an inconsistant state.
 http://javarevisited.blogspot.com.au/2013/03/how-to-create-immutable-class-object-java-example-tutorial.html
 
 ##Comments
