@@ -1,6 +1,6 @@
 #Coding guidlines
 
-This document describes the coding rule that need to be apply in our projects.
+This document describes the coding rule that need to be applied in our projects.
 
 ##General
 Android projects must follow the guidelines specified by the platform to insure maintainability over time and developers.
